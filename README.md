@@ -2,6 +2,9 @@
 
 MySQL Table Exporter is a command-line tool written in Rust that exports data from a MySQL table to a SQL file. The generated SQL file contains `INSERT` statements that can be used to import the data into another database.
 
+# Releases
+You can download a pre-compiled version of the program from the [Release](https://github.com/markheramis/mysql-table-exporter/releases) Section.
+
 ## Features
 
 - Export data from any MySQL table
