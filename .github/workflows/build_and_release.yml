@@ -45,12 +45,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download artifacts (Linux)
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: mysql-table-exporter-ubuntu-latest
         path: release
     - name: Download artifacts (Windows)
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: mysql-table-exporter-windows-latest
         path: release
